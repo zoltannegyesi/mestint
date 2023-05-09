@@ -12,7 +12,7 @@ import java.util.List;
 public class Tester {
 	
 	private static void trySolver(State initialState, AbstractSolver solver) {
-		System.out.println("Solving with "+solver);
+		System.out.println("Solving PuzzleN with BreadthFirstSolver");
 		List<State> solution = solver.solve(initialState);
 		System.out.println("  States visited: "+solver.getVisitedStateCount());
 		System.out.println("  Solution:");
@@ -28,7 +28,6 @@ public class Tester {
 		trySolver(initialState, new BreadthFirstSolver());
 	}
 	public static void main(String[] args) {
-		System.out.println("PuzzleN");
 		trySolvers(new PuzzleN());
 		System.out.println("---------------------------------------------------------------");
 	}
