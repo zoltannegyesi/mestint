@@ -1,4 +1,4 @@
-# Kilences puzzle
+# Nyolcas puzzle
 
 | 0 | 1 | 2 | 
 |---|---|---|
